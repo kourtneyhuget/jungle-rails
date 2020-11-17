@@ -1,43 +1,40 @@
-require 'rails_helper'
+# require 'rails_helper'
 
-RSpec.describe Product, type: :model do
-  describe 'Validations' do
-    it "should save successfully" do
-      @product = Product.new
-      @product.name = 'Test'
-      @product.price_cents = 123
-      @product.quantity = 2
-      @product.category_id = 1
-      expect(@product).to be_present
-    end
+# RSpec.describe Product, type: :model do
+#   describe 'Validations' do
+#     it "should save successfully" do
+#       @category = Category.create(name: 'Clothing')
+#       @product = @category.products.create(name: 'shoes', description: 'test', image: 'test', price_cents: 20000, quantity: 2)
+#       expect(@product).to be_valid
+#       @product.errors.full_messages
+#     end
 
-    it "name presence" do
-      @product = Product.new
-      @product.name = nil
-      @product.save
-      expect(@product.errors.full_messages).to include("Name can't be blank")
-    end
+#     it "name presence" do
+#       @category = Category.create(name: 'Clothing')
+#       @product = @category.products.create(name: nil, description: 'test', image: 'test', price_cents: 20000, quantity: 2)
+#       expect(@product).not_to be_valid
+#       @product.errors.full_messages
+#     end
 
-    it "price_cents presence" do
-      @product = Product.new
-      @product.price_cents = nil
-      @product.save
-      expect(@product.errors.full_messages).to include("Price can't be blank")
-    end
+#     it "price_cents presence" do
+#       @category = Category.create(name: 'Clothing')
+#       @product = @category.products.create(name: 'shoes', description: 'test', image: 'test', price_cents: nil, quantity: 2)
+#       expect(@product).not_to be_valid
+#       @product.errors.full_messages
+#     end
 
-    it "quantity presence" do
-      @product = Product.new
-      @product.quantity = nil
-      @product.save
-      expect(@product.errors.full_messages).to include("Quantity can't be blank")
-    end
+#     it "quantity presence" do
+#       @category = Category.create(name: 'Clothing')
+#       @product = @category.products.create(name: 'shoes', description: 'test', image: 'test', price_cents: 20000, quantity: nil)
+#       expect(@product).not_to be_valid
+#       @product.errors.full_messages
+#     end
 
-    it "category_id presence" do
-      @product = Product.new
-      @product.category_id = nil
-      @product.save
-      expect(@product.errors.full_messages).to include("Category can't be blank")
-    end
-  end
-end
+#     it "category presence" do
+#       @product = Product.create(name: 'shoes', description: 'test', image: 'test', price_cents: 20000, quantity: 2)
+#       expect(@product).not_to be_valid
+#       @product.errors.full_messages
+#     end
+#   end
+# end
 
