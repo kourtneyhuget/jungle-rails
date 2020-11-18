@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails. Added features including login/signup with authentication, valid credentials in order for admin to be able to see the admin/product and admin/category pages, ability for admin to create new categories, products that have no inventory properly display a "sold out" icon. Integrated Stripe for testing payment. RSpec and Capybara were used for unit and feature testing.
+A mini e-commerce application built with Rails. Added features including login/signup with authentication, valid credentials in order for admin to be able to see the admin/product and admin/category pages, created a admin dashboard to display quantity of current products and categories, ability for admin to create new categories, products that have no inventory properly display a "sold out" icon. Integrated Stripe for testing payment. RSpec and Capybara were used for unit and feature testing.
 
 # Screenshots
 
