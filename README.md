@@ -6,6 +6,7 @@ A mini e-commerce application built with Rails. Added features including login/s
 
 ![demo of jungle admin functionality](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/JungleAdmin.gif?raw=true)
 ![demo of jungle main functionality](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/JungleAnimatedGif.gif?raw=true)
+![jungle admin categories](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/AdminCategories.png?raw=true)
 
 ## Setup
 
