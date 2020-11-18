@@ -6,7 +6,13 @@ A mini e-commerce application built with Rails. Added features including login/s
 
 ![demo of jungle admin functionality](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/JungleAdmin.gif?raw=true)
 ![demo of jungle main functionality](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/JungleAnimatedGif.gif?raw=true)
-![jungle admin categories](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/AdminCategories.png?raw=true)
+![homepage](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/JungleHomepage.png?raw=true)
+![cart checkout](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/JungleCart.png?raw=true)
+![order confirmation](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/OrderConfirmation.png?raw=true)
+![stripe integration](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/StripeIntegration.png?raw=true)
+![admin categories](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/AdminCategories.png?raw=true)
+![admin dashboard](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/AdminDashboard.png?raw=true)
+![admin products](https://github.com/kourtneyhuget/jungle-rails/blob/master/docs/AdminProducts.png?raw=true)
 
 ## Setup
 
